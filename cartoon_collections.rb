@@ -3,8 +3,10 @@ def roll_call_dwarves(dwarf_name)# code an argument here
   dwarf_name.each_with_index { |name, index| puts "#{index + 1}. #{name}"}
 end
 
-def summon_captain_planet# code an argument here
+def summon_captain_planet(planeteer_calls)# code an argument here
   # Your code here
+  new_array = []
+  planeteer_calls.map { |call| new_array.push(call.capitalize) }
 end
 
 def long_planeteer_calls# code an argument here
